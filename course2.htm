@@ -1,6 +1,29 @@
 <html>
     <head>
         <title>kayan yazilar</title>
+        <style>
+            bodu {
+                background-color: #fffafc;
+                text-align: center;
+            }
+
+            .blink {
+                font-size: 100px;
+                font-weight: bold;
+                color: #e91e63;
+                animation: blink 1s infinite;
+                margin-top: 50px;
+            }
+
+            @keyframes blink {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>
+  
+                                
+
     </head>
     <body>
         <marquee>kim istemez mutlu olmayi</marquee>
@@ -12,5 +35,6 @@
         <marquee scrolldelay="100" direction="up" height="75">sureyya</marquee>
         <br>
         <marquee scrolldelay="50" direction="left"><img src="https://raw.githubusercontent.com/sifa-tech/my-website/main/kedi.jpg.webp" alt="kedi"></marquee>
+        <div class="blink">ELİF</div>
     </body>
 </html>
